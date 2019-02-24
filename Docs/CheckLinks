@@ -1,0 +1,6 @@
+-- export Section by Section from LO as a PDF
+  
+-- install and use pdftk to uncompress: 
+ 
+ pdftk in.pdf cat output out.pdf uncompress; strings out.pdf | grep -i http
+ 
