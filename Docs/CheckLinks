@@ -2,5 +2,5 @@
   
 -- install and use pdftk to uncompress: 
  
- pdftk in.pdf cat output out.pdf uncompress; strings out.pdf | grep -i http
+ pdftk IN.pdf cat output out.pdf uncompress; strings out.pdf | grep -i http > IN-urls.txt
  
